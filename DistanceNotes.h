@@ -82,7 +82,7 @@ void readDistanceNotes() {
       lastNote = note;
     }
   } else {
-// if we went out of range should the last note on if there was one
+// if we went out of range shut the last note on if there was one
     if( lastNote != -1) {
       MIDI.sendNoteOff(lastNote, 127, c);
     }
