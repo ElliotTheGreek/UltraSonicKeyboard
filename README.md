@@ -15,7 +15,7 @@ Turn distance into keyboard keys and send them to a midi controller.
 
   - Add a wire or a two pole toggle switch to the pins in the image below.  Connect the pins and boot the device when you want to connect the Arduino IDE to the device and deploy code.  Disconnect the pins and reboot the device to get it to be a midi controller.
 
-![Image of Jumper Pins](https://raw.githubusercontent.com/ElliotTheGreek/UltraSonicKeyboard/master/ArduinoMidiPins.png)
+![Image of Jumper Pins](https://raw.githubusercontent.com/ElliotTheGreek/UltraSonicKeyboard/master/ReferenceImages/ArduinoMidiPins.png)
 
 * With the pins connected, connect the device to your computer and deploy DistanceNotes.h to it using the Arduino IDE.
 
