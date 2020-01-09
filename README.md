@@ -17,3 +17,9 @@ This way your synthesizer sees the device as a MIDI controller.  Give it a name 
 
 
 ![Image of Jumper Pins](https://raw.githubusercontent.com/ElliotTheGreek/UltraSonicKeyboard/master/ArduinoMidiPins.png)
+
+* With the pins connected, connect the device to your computer and deploy DistanceNotes.h to it using the Arduino IDE.
+
+* Once it is finished disconnect the device from power and disconnect the jumper pins from the image above.
+
+* Now when you plug the device back in over usb it will be available as a MIDI instrument to any sythesizer on your computer.
